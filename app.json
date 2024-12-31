@@ -1,0 +1,44 @@
+{
+  "expo": {
+    "name": "Park Time",
+    "slug": "parktime",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "newArchEnabled": true,
+    "plugins": [
+      [
+        "expo-notifications"
+      ]
+    ],
+    "splash": {
+      "image": "./assets/splash-icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#273859"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.tbsvsn.parktime",
+      "runtimeVersion": "1.0.0"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#273859"
+      },
+      "package": "com.tbsvsn.parktime",
+      "runtimeVersion": {
+        "policy": "appVersion"
+      }
+    },
+    "extra": {
+      "eas": {
+        "projectId": "4d54fb90-1794-4dde-a9b7-50e37b678575"
+      }
+    },
+    "updates": {
+      "url": "https://u.expo.dev/4d54fb90-1794-4dde-a9b7-50e37b678575"
+    }
+  }
+}
